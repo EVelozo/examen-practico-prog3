@@ -2,7 +2,7 @@ nav.navbar {
   background: var(--color-primario);
   padding: 0.9rem 1.2rem;
   position: relative;
-
+flex-wrap: wrap;
 }
 .navbar__logo {
   width: 90px;

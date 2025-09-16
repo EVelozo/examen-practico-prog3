@@ -1,7 +1,7 @@
 footer{
   display: block;
   unicode-bidi: isolate;
-  
+  flex-wrap: wrap;
 }
 footer.footer {
   background: var(--color-footer);
