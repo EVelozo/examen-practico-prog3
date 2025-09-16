@@ -59,7 +59,6 @@ h2.destacado {
   height: 450px;
   max-width: 500px;
   margin: 20px auto;
-
   padding: 20px;
   border-radius: 15px;
   border: 1px solid black;
@@ -178,6 +177,14 @@ p.descripcion__producto {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
 }
+.ingrediente{
+  width: 95%;
+  height: auto;
+  margin: 0 15px;
+  padding: 5px;
+font-size: 23px;
+text-align:justify;
+}
 /*-------------- TITULO EQUIPO Y DESCRIPCION--------------*/
 h1.equipo {
   margin: auto;
@@ -276,7 +283,6 @@ section.formulario {
   transition: all 0.2s ease;
 }
 
-/*--------------------------------------*/
 .btn:hover {
   background: #2af3e9da;
   transform: scale(1.15);
