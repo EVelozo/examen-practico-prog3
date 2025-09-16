@@ -238,6 +238,7 @@ section.formulario {
   background-color: rgb(51, 80, 134);
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 .estilo label {
   font-size: 20px;
@@ -262,21 +263,20 @@ section.formulario {
 }
 .estilo button {
   margin: 5px;
-  padding: 10px auto;
+  padding: 2px;
   width: 70px;
   height: 40px;
-  border: 2px solid rgba(78, 115, 225, 0.4);
+  border: 2px solid rgba(16, 70, 233, 0.911);
   border-radius: 15px;
-  color: #4e73df;
+  color: #0c1b46;
   font-size: 17px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: var(--fuente-principal);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 /*--------------------------------------*/
 .btn:hover {
-  background: #18f3a6;
+  background: #2af3e9da;
   transform: scale(1.15);
 }
