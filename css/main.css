@@ -69,6 +69,7 @@ h2.destacado {
   background-color: rgba(236, 210, 186, 0.904);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 .card:hover {
   transform: scale(1.05);
@@ -136,6 +137,10 @@ h2.destacado {
   background-color: #30bd17;
   letter-spacing: 2px;
 }
+.card__btn2:hover {
+  background-color: #30bd17;
+  letter-spacing: 2px;
+}
 .card__btn__info {
   all: unset;
   width: 90px;
@@ -177,13 +182,13 @@ p.descripcion__producto {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
 }
-.ingrediente{
+.ingrediente {
   width: 95%;
   height: auto;
   margin: 0 15px;
   padding: 5px;
-font-size: 23px;
-text-align:justify;
+  font-size: 23px;
+  text-align: justify;
 }
 /*-------------- TITULO EQUIPO Y DESCRIPCION--------------*/
 h1.equipo {
