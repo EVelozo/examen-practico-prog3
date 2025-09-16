@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK DEL CSS PRINCIPAL -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- LINK DEL LOGO DE LA PAGINA -->
+    <link
+      rel="shortcut icon"
+      href="../img/logo.jpg"
+      type="image/png"
+      aria-details="Gracias a Freepik por el icono"
+    />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="navbar__inner">
+          <img
+            class="navbar__logo"
+            src="../img/logo.jpg"
+            alt="Logo de la Tienda"
+          />
+          <div class="navbar__brand">
+            <h1 class="navbar__title">La Dulce Miga</h1>
+          </div>
+          <ul class="navbar__links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- TITULO DE CONTACTO -->
+    <h1 class="contacto">¡Comunicate con Nosotros!</h1>
+
+    <p class="descripcion__contacto">
+      Ayudanos a mejorar para seguir logrando nuevos logros! Dejanos tu opinión
+      en lo que te parece que deberiamos mejorar o cambiar en ciertos aspectos,
+      para que juntos sigamos endulzando la vida de muchísimas más personas!
+    </p>
+    <!-- MENU -->
+    <main>
+      <!-- FORMULARIO -->
+      <section class="formulario">
+        <form class="estilo">
+          <label for="nombre">Nombre:</label> <br />
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder=" Juan"
+            autocomplete="name"
+            required
+            maxlength="50"
+            minlength="3"
+          />
+          <br />
+          <label for="apellido">Apellido:</label> <br />
+
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder=" Gomez"
+            autocomplete="name"
+            required
+            maxlength="50"
+            minlength="4"
+          />
+          <br />
+          <label for="email">Email:</label> <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder=" juan@email.com"
+            autocomplete="email"
+            required
+          />
+          <br />
+          <label for="telefono">Telefono:</label> <br />
+          <input
+            type="number"
+            name="telefono"
+            id="telefono"
+            placeholder=" 3364999999"
+            maxlength="30"
+            minlength="10"
+          />
+          <br />
+          <label for="">Asunto:</label> <br />
+          <input
+            type="text"
+            name="asunto"
+            id="asunto"
+            placeholder=" Excelente Compañia"
+            required
+            maxlength="50"
+            minlength="10"
+          />
+          <br />
+          <label for="">Mensaje:</label>
+          <br />
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            placeholder="Estupendos postres y excelente servicio..."
+            rows="5"
+            cols="5"
+            max-rows="7"
+            max-cols="30"
+            required
+            style="max-width: 550px; max-height: 200px"
+          ></textarea>
+          <br />
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="info">
+        <p>
+          📍<strong>Dirección:</strong> San Nicolas - Buenos Aires - Argentina
+        </p>
+        <p>☎️<strong>Telefono:</strong> +54 9 3364 999999</p>
+        <p>✉️<strong>Email:</strong> ladulcemiga@gmail.com.ar</p>
+      </div>
+      <div class="redes">
+        <a class="whatsapp" href=""
+          ><img src="../img/whatsapp.png" alt="Enlace a Whatsapp" height="30px"
+        /></a>
+        <a class="instagram" href=""
+          ><img
+            src="../img/instagram.jpg"
+            alt="Enlace a Instagram"
+            height="30px"
+        /></a>
+        <a class="facebook" href=""
+          ><img src="../img/facebook.jpg" alt="Enlace a Facebook" height="30px"
+        /></a>
+      </div>
+      <div class="footer__bottom">
+        © 2025 Mi sitio web. Todos los derechos reservados.
+      </div>
+    </footer>
+  </body>
+</html>

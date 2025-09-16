@@ -1,0 +1,12 @@
+/* VARIABLES */
+:root {
+  --color-primario: #dbab0b;
+  --color-secundario: #80320e;
+  --color-terciario: rgb(17, 122, 108);
+  --color-fondo: #f88c34d3;
+  --color-texto: #333;
+  --color-footer: #2e2e2e;
+  --fuente-principal: "Segoe UI", sans-serif;
+  --fuente-secundaria: "brush script";
+  --fuente-terciaria: "fantasy";
+}

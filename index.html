@@ -1,20 +1,162 @@
 <!DOCTYPE html>
-<html lang="es">
+<html >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK DEL CSS PRINCIPAL -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- LINK DEL LOGO DE LA PAGINA -->
     <link
       rel="shortcut icon"
-      href="img/pastel-icono.jpg"
+      href="img/logo.jpg"
       type="image/png"
       aria-details="Gracias a Freepik por el icono"
     />
-    <link rel="stylesheet" href="" />
     <title>Dulce Miga</title>
   </head>
   <body>
     <header>
-      <nav></nav>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="navbar__inner">
+          <img class="navbar__logo" src="./img/logo.jpg" alt="Logo de la Tienda">
+          <div class="navbar__brand">
+            <h1 class="navbar__title">La Dulce Miga</h1>
+          </div>
+          <ul class="navbar__links">
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/equipo.html">Equipo</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <!--TITULO DE PRESENTACION-->
+      <h1 class="bienvenida">¡¡Bienvenidos a Dulce Miga!!</h1>
+      <p class="texto__inicio">Nos alegra saber que estás aquí! <br>
+        Dejanos ayudarte para que tengas todo lo que necesites!<br> 
+        Ya sea para cualquier clase o tipo de evento.. un cumpleaños, una fiesta, una despedida, lo que sea! <br>
+        Contamos con más de 80 años de experiencia, más de 50 fabricas y ventas en más de 100 países. <br>
+        Acá podes encontrar todo tipo de pasteles y tortas que todo el mundo desea probar!</p>
+      <h2 class="destacado">Productos Destacados</h2>
+    <!-- MENU -->
+    <main>
+      <!-- TORTA OREO -->
+      <section class="card">
+        <h1 class="card__title">Oreo</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-oreo.jpg" alt="Torta Oreo" />
+        </div>
+        <p class="card__description">
+          Torta de crema helada de biscuit (vainilla con galletas oreo
+          trituradas), con relleno de dulce de leche natural y galletas oreo
+          troceadas gruesas. Decorada con baño de chocolate, crema chantilly y
+          galletas oreo.
+        </p>
+        <span class="card__price">Precio: $57.700</span>
+        <a class="card__btn__info" href="./pages/oreo.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+        
+      </section>
+
+<!-- TORTA LEMON PIE-->
+      <section class="card">
+        <h1 class="card__title">Lemon Pie</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-lemonpie.jpg" alt="Torta Lemon Pie" />
+        </div>
+        <p class="card__description">
+        Este bocado dulce consiste en una crujiente base de masa quebrada, 
+        una cremosa crema de limón y se termina con un merengue italiano. 
+        El toque ácido del cítrico y el dulzor del merengue hacen de una auténtica delicia.
+        </p>
+        <span class="card__price">Precio: $65.300</span>
+        <a class="card__btn__info" href="./pages/lemonpie.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+      </section>
+
+<!-- TORTA TOFFEE -->
+      <section class="card">
+        <h1 class="card__title">Toffee</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-toffee.jpg" alt="Torta Oreo" />
+        </div>
+        <p class="card__description">
+          Para los amantes del chocolate y dulce de leche! <br>
+          Con una base de masa suave, relleno de dulce de leche, 
+          bañada con chocolate aguila y decocara con trozos de chocolate.
+        </p>
+        <span class="card__price">Precio: $43.500</span>
+        <a class="card__btn__info" href="./pages/toffee.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+      </section>
+      
+      <!-- TORTA DE MIGA -->
+      <section class="card">
+        <h1 class="card__title">Torta de Miga</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-miga.jpg" alt="Torta Oreo" />
+        </div>
+        <p class="card__description">
+         <strong>TENDENCIA POR LAS TORTAS FRIAS!</strong> <br>
+         Ideal para los dias de primavera y verano. <br>
+        Adéntrate en un universo de sabores salados, 
+         texturas suaves y una versatilidad sin igual.
+        </p>
+        <span class="card__price">Precio: $55.000</span>
+        <a class="card__btn__info" href="./pages/miga.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+      </section>
+
+      <!-- TORTA CUMPLEAÑOS -->
+      <section class="card">
+        <h1 class="card__title">Torta de Cumpleaños</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-cumpleaños.jpg" alt="Torta de Cumpleaños" />
+        </div>
+        <p class="card__description">
+          La torta de feliz cumpleaños es mucho más que un simple postre,
+           es el epicentro de la celebración, el lienzo comestible 
+           donde se pintan los deseos y la dulce culminación de un año más de vida.
+        </p>
+        <span class="card__price">Precio: $63.000</span>
+        <a class="card__btn__info" href="./pages/cumpleaños.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+      </section>
+      
+      <!-- TORTA DE CASAMIENTO -->
+      <section class="card">
+        <h1 class="card__title">Torta de Casamiento</h1>
+        <div class="card__img_container">
+          <img src="./img/torta-casamiento.jpg" alt="Torta de Casamiento" />
+        </div>
+        <p class="card__description">
+          Que tu boda no solo sea un evento más, mucho menos
+         <strong>Tu Pastel!</strong> <br> Que en ella celebres el compromiso de 
+          unión, prosperidad y una larga vida juntos! <br>
+         <em>Viva el Pasteel!!</em> 
+        </p>
+        <span class="card__price">Precio: $85.000</span>
+        <a class="card__btn__info" href="./pages/casamiento.html">Leer más</a>
+        <button class="card__btn">Comprar</button>
+     
+    </main>
+        <!-- FOOTER -->
+    <footer class="footer">
+      <div class="info">
+        <p>📍<strong>Dirección:</strong> San Nicolas - Buenos Aires - Argentina</p>
+        <p>☎️<strong>Telefono:</strong> +54 9 3364 999999</p>
+        <p>✉️<strong>Email:</strong> ladulcemiga@gmail.com.ar </p>
+
+      </div>
+      <div class="redes">
+        <a class="whatsapp" href=""><img src="./img/whatsapp.png" alt="Enlace a Whatsapp" height="30px"></a>
+        <a class="instagram" href=""><img src="./img/instagram.jpg" alt="Enlace a Instagram" height="30px"></a>
+        <a class="facebook" href=""><img src="./img/facebook.jpg" alt="Enlace a Facebook" height="30px"></a>
+      </div>
+      <div class="footer__bottom">
+        © 2025 Mi sitio web. Todos los derechos reservados.
+      </div>
+    </footer>
   </body>
 </html>
