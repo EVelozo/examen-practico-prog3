@@ -21,6 +21,8 @@ h1.bienvenida {
   height: 50px;
   font-family: var(--fuente-terciaria);
   text-align: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 p.texto__inicio {
   margin: auto;
@@ -34,6 +36,8 @@ p.texto__inicio {
   font-family: var(--fuente-secundaria);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   font-size: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 h2.destacado {
   margin: 10px auto;
@@ -45,6 +49,7 @@ h2.destacado {
   text-align: center;
   background-color: rgba(236, 210, 186, 0.904);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
 /*------------- ESTILOS DE CARDS ---------------*/
@@ -158,6 +163,7 @@ h1.producto {
   height: 50px;
   font-family: var(--fuente-terciaria);
   text-align: center;
+  box-sizing: border-box;
 }
 p.descripcion__producto {
   margin: auto;
@@ -169,6 +175,7 @@ p.descripcion__producto {
   text-align: center;
   font-family: var(--fuente-secundaria);
   font-size: 20px;
+  box-sizing: border-box;
 }
 /*-------------- TITULO EQUIPO Y DESCRIPCION--------------*/
 h1.equipo {
@@ -178,6 +185,7 @@ h1.equipo {
   height: 50px;
   font-family: var(--fuente-terciaria);
   text-align: center;
+  box-sizing: border-box;
 }
 p.subtitulo {
   margin: auto;
@@ -190,9 +198,10 @@ p.subtitulo {
   font-family: var(--fuente-secundaria);
   font-size: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-.nombre__empleado{
+.nombre__empleado {
   font-size: 25px;
 }
 /*-------------- FORMULARIO Y DESCRIPCION --------------*/
@@ -204,6 +213,7 @@ h1.contacto {
   height: 40px;
   font-family: var(--fuente-terciaria);
   text-align: center;
+  box-sizing: border-box;
 }
 p.descripcion__contacto {
   margin: 10px auto;
@@ -216,6 +226,7 @@ p.descripcion__contacto {
   font-family: var(--fuente-secundaria);
   font-size: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
 section.formulario {
@@ -258,7 +269,8 @@ section.formulario {
   border-radius: 15px;
   color: #4e73df;
   font-size: 17px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   cursor: pointer;
   transition: all 0.2s ease;
 }
